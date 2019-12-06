@@ -1,0 +1,63 @@
+@import '<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css"/>';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'BebasNeueRegular',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F00;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.myVideo {
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  padding: 0px;
+  object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+  z-index: -99;
+  opacity: 1;
+}
+
+.login {
+  text-align: center;
+  max-width: 50%;
+  max-height: 30%;
+  border: solid;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: white;
+  justify-content: left;
+
+  margin: 8% auto;
+  padding: 40px;
+  padding-top: 20px;
+  color: black;
+  opacity: .8
+
+}
+
+
+
+ .header {
+  font-family: 'BebasNeueRegular';
+  padding-left: 30px;
+  text-align: left;
+  background: black;
+  color: grey;
+  font-size: 30px;
+  width: 100%;
+  opacity: .9
+}
